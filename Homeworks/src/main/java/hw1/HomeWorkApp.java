@@ -5,6 +5,8 @@ public class HomeWorkApp {
         printThreeWords();
     }
 
+
+    // Task 1 Метод печатает 3 слова в столбец
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
