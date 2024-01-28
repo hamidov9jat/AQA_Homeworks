@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>learn.andersen.homeworks</groupId>
-    <artifactId>HomeWorkApp</artifactId>
+    <artifactId>assignments</artifactId>
     <version>1.0.0</version>
 
     <properties>
