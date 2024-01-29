@@ -2,7 +2,9 @@ package hw1;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-        printThreeWords();
+//        printThreeWords();
+
+
     }
 
 
@@ -12,6 +14,17 @@ public class HomeWorkApp {
         System.out.println("Banana");
         System.out.println("Apple");
 
+    }
+
+    // Task 2
+    public static void checkSumSign() {
+        int a = 23, b = 54;
+
+        if (a + b > 0) {
+            System.out.println("Сумма положительная");
+        } else {
+            System.out.println("Сумма отрицательная");
+        }
     }
 
 }
