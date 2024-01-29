@@ -22,11 +22,17 @@ public class HomeWorkApp {
 
         int sum = a + b;
 
-        if (sum > 0) {
+        if (sum >= 0) {
             System.out.println("Сумма положительная");
         } else {
             System.out.println("Сумма отрицательная");
         }
+    }
+
+    public static void printColor() {
+        int value = 37;
+
+
     }
 
 }
