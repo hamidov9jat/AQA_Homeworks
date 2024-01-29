@@ -2,9 +2,11 @@ package hw1;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-//        printThreeWords();
-
-
+        // Task 6 Testing methods from tasks 2-5
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        compareNumbers();
     }
 
 
