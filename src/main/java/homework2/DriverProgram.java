@@ -38,5 +38,20 @@ public class DriverProgram {
         System.out.println(Arrays.toString(TaskNine.initialValueArray(5, 78)));
         assert TaskNine.initialValueArray(4, 34) != null;
         System.out.println(Arrays.toString(TaskNine.initialValueArray(4, 34)));
+
+        // Testing task 10*** method
+        // Changing array in place
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        RotateArray.rotateArrayNPlaces(arr, 3);
+        System.out.println(Arrays.toString(arr));
+
+        arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        RotateArray.rotateArrayNPlaces(arr, -3);
+        System.out.println(Arrays.toString(arr));
+
+        arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        RotateArray.rotateArrayNPlaces(arr, 5);
+        System.out.println(Arrays.toString(arr));
+
     }
 }
