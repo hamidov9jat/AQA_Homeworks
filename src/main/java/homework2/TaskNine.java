@@ -3,7 +3,7 @@ package homework2;
 import java.util.Arrays;
 
 public class TaskNine {
-    // Task 9*
+    // Task 9* Create and initialize array of length len with initial value initialValue
     public static int[] initialValueArray(int len, int initialValue) {
         if (len < 0) {
             return null;
