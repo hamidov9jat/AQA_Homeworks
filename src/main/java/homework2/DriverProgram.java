@@ -20,6 +20,9 @@ public class DriverProgram {
         System.out.println(LeapYear.isLeapYear(2024)); // true
 
         // Testing task 5 method
-        TaskFive.invertElements();
+        TaskFive.invertArrayElements();
+
+        // Testing task 6 method (prints 100 elements)
+//        TaskSix.fillArray();
     }
 }

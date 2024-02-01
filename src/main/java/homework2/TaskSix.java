@@ -11,6 +11,6 @@ public class TaskSix {
             arr[i] = i + 1;
         }
 
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
     }
 }
