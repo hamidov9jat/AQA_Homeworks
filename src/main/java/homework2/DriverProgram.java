@@ -24,5 +24,10 @@ public class DriverProgram {
 
         // Testing task 6 method (prints 100 elements)
 //        TaskSix.fillArray();
+
+        // Testing task 7 method
+//        TaskSeven.changeArray();
+
+
     }
 }
