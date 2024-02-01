@@ -6,7 +6,7 @@ public class TaskFive {
 
     // Task 5 Method for inverting elements of the array from zeros to ones
     // and vice versa
-    public static void invertElements() {
+    public static void invertArrayElements() {
         byte[] arr = {0, 1, 0, 1, 1, 1, 0, 0};
         System.out.println("Before inverting array: " + Arrays.toString(arr));
 
