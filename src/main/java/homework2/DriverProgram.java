@@ -11,5 +11,10 @@ public class DriverProgram {
         // Testing method from task 3
         TaskThree.printIsPositiveOrNegative(x1); // positive
         TaskThree.printIsPositiveOrNegative(x2); // negative
+
+        // Testing method from task 4
+        TaskFour.printStringNTimes("Hello Task 4", 3);
+
+
     }
 }
