@@ -28,6 +28,9 @@ public class DriverProgram {
         // Testing task 7 method
 //        TaskSeven.changeArray();
 
+        // Testing task 8
+        TaskEight.fillDiagonal();
+
 
     }
 }
