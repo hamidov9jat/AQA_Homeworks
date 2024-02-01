@@ -15,6 +15,11 @@ public class DriverProgram {
         // Testing method from task 4
         TaskFour.printStringNTimes("Hello Task 4", 3);
 
+        // Testing task * method
+        System.out.println(LeapYear.isLeapYear(2023)); // false
+        System.out.println(LeapYear.isLeapYear(2024)); // true
 
+        // Testing task 5 method
+        TaskFive.invertElements();
     }
 }
