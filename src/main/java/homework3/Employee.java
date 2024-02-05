@@ -70,6 +70,7 @@ public class Employee {
         this.age = age;
     }
 
+    @Override
     public String toString() {
         String infoCard = String.format("%s, %s \nPhone: %s\nJobTitle: %s\nAge: %d\nSalary: %d", fullName, email, phoneNumber, jobTitle, age, salary);
         return infoCard;
