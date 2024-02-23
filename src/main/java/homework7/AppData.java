@@ -24,7 +24,7 @@ public class AppData {
         this.header = header;
         this.data = new ArrayList<>();
         for (int[] row : data) {
-            this.data.add(row.clone()); // Copy array to avoid modifying original
+            this.data.add(row.clone());
         }
     }
 
@@ -70,27 +70,6 @@ public class AppData {
 
         return new AppData(header, data);
     }
-//        List<String[]> lines = new ArrayList<>();
-//        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
-//            String line;
-//            while ((line = reader.readLine()) != null) {
-//                lines.add(line.split(";"));
-//            }
-//        }
-//
-//        // Extract header and data
-//        String[] header = lines.getFirst();
-//        ArrayList<int[]> data = new ArrayList<>();
-//        for (int i = 1; i < lines.size(); i++) {
-//            int[] row = new int[lines.get(i).length];
-//            for (int j = 0; j < row.length; j++) {
-//                row[j] = Integer.parseInt(lines.get(i)[j]);
-//            }
-//            data.add(row);
-//        }
-
-//        return new AppData(header, data);
-//    }
 
     public String[] getHeader() {
         return this.header;
