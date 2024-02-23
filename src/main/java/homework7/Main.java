@@ -1,6 +1,9 @@
 package homework7;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 /*
 Структура csv файла:
@@ -48,12 +51,15 @@ public class Main {
         AppData loadedData = AppData.loadFromCsv("src/main/java/homework7/data.csv");
 
         System.out.println("Loaded data:");
-        for (int i = 0; i < loadedData.getHeader().length; i++) {
-            System.out.print(loadedData.getHeader()[i] + ": ");
-            for (int j = 0; j < loadedData.getData().get(i).length; j++) {
-                System.out.print(loadedData.getData().get(i)[j] + " ");
-            }
-            System.out.println();
-        }
+        System.out.println(Arrays.toString(loadedData.getHeader()));
+        System.out.println(displayData(loadedData.getData()));
+
     }
+
+    public static String displayData(ArrayList<int[]> data) {
+        return data.stream()
+                .map(Arrays::toString)
+                .collect(Collectors.joining("\n"));
+    }
+
 }
